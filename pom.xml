@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>serializer-poet</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <jarName>${project.artifactId}</jarName>
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.msxzm</groupId>
             <artifactId>base</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>com.sun</groupId>
