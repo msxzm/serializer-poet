@@ -10,9 +10,9 @@ import com.msxzm.base.stream.OutputStream;
  */
 public enum SerializerBound {
     /** read */
-    READ("readFrom", "doRead", "inputStream", InputStream.class),
+    READ("readFrom", "read", "inputStream", InputStream.class),
     /** write */
-    WRITE("writeTo", "doWrite", "outputStream", OutputStream.class);
+    WRITE("writeTo", "write", "outputStream", OutputStream.class);
 
     /** 方法名 */
     String accessName;
